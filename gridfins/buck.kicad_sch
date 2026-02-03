@@ -4446,7 +4446,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+6V"
+		(property "Value" "+7.4V"
 			(at 226.8053 62.8978 0)
 			(effects
 				(font
@@ -5399,7 +5399,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+6V"
+		(property "Value" "+7.4V"
 			(at 112.5053 121.3178 0)
 			(effects
 				(font

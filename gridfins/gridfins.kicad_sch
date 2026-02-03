@@ -4038,6 +4038,16 @@
 	)
 	(wire
 		(pts
+			(xy 208.28 137.16) (xy 222.25 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "427f0d8f-df27-4f5a-84f4-33954eeb7d53")
+	)
+	(wire
+		(pts
 			(xy 57.15 147.32) (xy 59.69 147.32)
 		)
 		(stroke
@@ -4538,6 +4548,16 @@
 	)
 	(wire
 		(pts
+			(xy 208.28 129.54) (xy 222.25 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa53237c-60af-4dc6-8ac8-71e38fd0b9dd")
+	)
+	(wire
+		(pts
 			(xy 59.69 67.31) (xy 69.85 67.31)
 		)
 		(stroke
@@ -4685,6 +4705,16 @@
 			(type default)
 		)
 		(uuid "dd493282-399a-404f-9dd5-f2b81f9a0a7d")
+	)
+	(wire
+		(pts
+			(xy 208.28 133.35) (xy 222.25 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de744d46-ee33-481b-a5ab-bf5764ed323c")
 	)
 	(wire
 		(pts
@@ -4916,6 +4946,26 @@
 		)
 		(uuid "fe57d6c6-6a58-4e27-ae49-abe5c6360092")
 	)
+	(label "SERVOPWM0"
+		(at 135.89 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "01c244f5-fa01-4398-8988-63d2a821e12e")
+	)
+	(label "SERVOPWM0"
+		(at 208.28 129.54 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "22d16f26-7de9-494d-9c28-1e82729125bf")
+	)
 	(label "CHIP_PU"
 		(at 36.83 165.1 180)
 		(effects
@@ -4967,6 +5017,26 @@
 			(justify left bottom)
 		)
 		(uuid "3f00994b-99c9-4ca0-835d-a6fc3df540f3")
+	)
+	(label "SERVOPWM1"
+		(at 208.28 133.35 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "40c6a3db-cc05-4003-a836-c7043cda8926")
+	)
+	(label "SERVOPWM1"
+		(at 135.89 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4d77d22f-5fdb-4a9f-af8f-c56fe3a635ff")
 	)
 	(label "BuckPGOOD"
 		(at 262.89 106.68 0)
@@ -5059,6 +5129,16 @@
 			(justify left bottom)
 		)
 		(uuid "74855e0d-40e4-4940-a544-edae9207b2ea")
+	)
+	(label "SERVOPWM2"
+		(at 135.89 102.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "85113df3-a360-4a6d-afe5-b33e35fc7e58")
 	)
 	(label "BOOT"
 		(at 68.58 165.1 180)
@@ -5179,6 +5259,16 @@
 			(justify left bottom)
 		)
 		(uuid "f28e56e7-283b-4b9a-ae27-95e89770fbf8")
+	)
+	(label "SERVOPWM2"
+		(at 208.28 137.16 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f5a5c052-1831-416b-8630-666dac92e331")
 	)
 	(label "CHIP_PU"
 		(at 39.37 191.77 180)
@@ -9108,8 +9198,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+6V"
-			(at 205.2153 87.0278 0)
+		(property "Value" "+7.4V"
+			(at 204.724 86.868 0)
 			(effects
 				(font
 					(size 1.27 1.27)
