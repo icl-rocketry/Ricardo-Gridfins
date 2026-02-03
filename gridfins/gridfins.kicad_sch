@@ -10194,7 +10194,7 @@
 			)
 		)
 		(instances
-			(project "RicardoTemplate"
+			(project "gridfins"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83"
 					(page "3")
 				)
@@ -10276,7 +10276,7 @@
 			)
 		)
 		(instances
-			(project "RicardoTemplate"
+			(project "gridfins"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83"
 					(page "2")
 				)
@@ -10318,7 +10318,7 @@
 			)
 		)
 		(instances
-			(project "RicardoTemplate"
+			(project "gridfins"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83"
 					(page "4")
 				)
@@ -10390,7 +10390,7 @@
 			)
 		)
 		(instances
-			(project "RicardoTemplate"
+			(project "gridfins"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83"
 					(page "5")
 				)
@@ -10452,7 +10452,7 @@
 			)
 		)
 		(instances
-			(project "RicardoTemplate"
+			(project "gridfins"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83"
 					(page "6")
 				)
