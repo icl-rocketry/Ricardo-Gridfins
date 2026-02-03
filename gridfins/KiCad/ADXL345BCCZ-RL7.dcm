@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ADXL345BCCZ-RL7
+D ADXL345BCCZ-RL7 Analog Devices, 3-Axis Accelerometer, I2C, SPI, 14-Pin LGA 0.3 V to +3.9 V 40C to +105C
+K
+F https://www.analog.com/media/en/technical-documentation/data-sheets/adxl345.pdf
+$ENDCMP
+#
+#End Doc Library
