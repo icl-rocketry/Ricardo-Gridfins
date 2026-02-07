@@ -769,7 +769,7 @@
     ],
     [
       "4a649bbd-9e5c-4376-be49-6107979e6dfc",
-      "Servo-Actuators"
+      "Servo"
     ],
     [
       "80cb323d-06df-474c-a120-f147460ae20e",
@@ -778,6 +778,10 @@
     [
       "c6ca599c-0f4a-4287-87f7-9e6e3f985752",
       "IMU"
+    ],
+    [
+      "a2b9d01a-f05c-4fe0-bfaf-c74e95793a8f",
+      "Linear Actuator"
     ]
   ],
   "text_variables": {}

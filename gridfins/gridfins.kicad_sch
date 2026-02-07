@@ -4058,7 +4058,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 137.16) (xy 222.25 137.16)
+			(xy 208.28 124.46) (xy 222.25 124.46)
 		)
 		(stroke
 			(width 0)
@@ -4618,7 +4618,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 129.54) (xy 222.25 129.54)
+			(xy 208.28 116.84) (xy 222.25 116.84)
 		)
 		(stroke
 			(width 0)
@@ -4828,7 +4828,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 133.35) (xy 222.25 133.35)
+			(xy 208.28 120.65) (xy 222.25 120.65)
 		)
 		(stroke
 			(width 0)
@@ -5097,7 +5097,7 @@
 		(uuid "19aa8352-b436-4329-b0ba-a10ef6082446")
 	)
 	(label "SERVOPWM0"
-		(at 208.28 129.54 0)
+		(at 208.28 116.84 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5199,7 +5199,7 @@
 		(uuid "3f00994b-99c9-4ca0-835d-a6fc3df540f3")
 	)
 	(label "SERVOPWM1"
-		(at 208.28 133.35 0)
+		(at 208.28 120.65 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5521,7 +5521,7 @@
 		(uuid "f28e56e7-283b-4b9a-ae27-95e89770fbf8")
 	)
 	(label "SERVOPWM2"
-		(at 208.28 137.16 0)
+		(at 208.28 124.46 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10883,8 +10883,8 @@
 		)
 	)
 	(sheet
-		(at 222.25 123.19)
-		(size 38.1 21.59)
+		(at 222.25 113.03)
+		(size 15.24 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -10898,8 +10898,8 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "4a649bbd-9e5c-4376-be49-6107979e6dfc")
-		(property "Sheetname" "Servo-Actuators"
-			(at 222.25 122.4784 0)
+		(property "Sheetname" "Servo"
+			(at 222.25 112.3184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10908,7 +10908,7 @@
 			)
 		)
 		(property "Sheetfile" "actuators.kicad_sch"
-			(at 222.25 145.3646 0)
+			(at 222.25 128.8546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10917,7 +10917,7 @@
 			)
 		)
 		(pin "Servo_0_PWM" input
-			(at 222.25 129.54 180)
+			(at 222.25 116.84 180)
 			(uuid "031476a5-98b8-4c62-8799-09e6879a5f47")
 			(effects
 				(font
@@ -10927,7 +10927,7 @@
 			)
 		)
 		(pin "Servo_1_PWM" input
-			(at 222.25 133.35 180)
+			(at 222.25 120.65 180)
 			(uuid "551e8709-4694-42e7-babf-c698a028038f")
 			(effects
 				(font
@@ -10937,7 +10937,7 @@
 			)
 		)
 		(pin "Servo_2_PWM" input
-			(at 222.25 137.16 180)
+			(at 222.25 124.46 180)
 			(uuid "c7182c5a-59a5-4719-8f59-be155b9470b6")
 			(effects
 				(font
@@ -11012,6 +11012,48 @@
 			(project "gridfins"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83"
 					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 222.25 139.7)
+		(size 15.24 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a2b9d01a-f05c-4fe0-bfaf-c74e95793a8f")
+		(property "Sheetname" "Linear Actuator"
+			(at 222.25 138.9884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "LinearActuator.kicad_sch"
+			(at 222.25 150.4446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "gridfins"
+				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83"
+					(page "8")
 				)
 			)
 		)
