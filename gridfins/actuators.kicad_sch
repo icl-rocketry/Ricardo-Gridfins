@@ -999,6 +999,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Serovs: 35kg torque, 7.4V\n"
+		(exclude_from_sim no)
+		(at 144.018 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "36c0b603-1644-4bd7-baf7-f8dab1aae9da")
+	)
 	(no_connect
 		(at 101.6 124.46)
 		(uuid "50001b8f-e22a-4d0e-a9a2-49fada5923de")
