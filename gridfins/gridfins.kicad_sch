@@ -3838,6 +3838,16 @@
 	)
 	(wire
 		(pts
+			(xy 226.06 67.31) (xy 237.49 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10b45bd1-65cb-4995-8272-140b3a24296a")
+	)
+	(wire
+		(pts
 			(xy 60.96 26.67) (xy 58.42 26.67)
 		)
 		(stroke
@@ -4438,6 +4448,16 @@
 	)
 	(wire
 		(pts
+			(xy 226.06 60.96) (xy 237.49 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d60e056-0132-4214-aa74-686998eaf70b")
+	)
+	(wire
+		(pts
 			(xy 278.13 33.02) (xy 273.05 33.02)
 		)
 		(stroke
@@ -4648,6 +4668,16 @@
 	)
 	(wire
 		(pts
+			(xy 234.95 87.63) (xy 246.38 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0a8039a-83ed-4b1a-891f-a1d6452c23c4")
+	)
+	(wire
+		(pts
 			(xy 58.42 21.59) (xy 58.42 26.67)
 		)
 		(stroke
@@ -4675,6 +4705,16 @@
 			(type default)
 		)
 		(uuid "aa53237c-60af-4dc6-8ac8-71e38fd0b9dd")
+	)
+	(wire
+		(pts
+			(xy 198.12 60.96) (xy 203.2 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa9891ce-96d7-44b5-9fd3-e27ec4631cf1")
 	)
 	(wire
 		(pts
@@ -5106,6 +5146,16 @@
 		)
 		(uuid "fb35e3b1-aff6-41a7-9cf0-52694b95edeb")
 	)
+	(wire
+		(pts
+			(xy 226.06 64.77) (xy 237.49 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb8d6029-4c53-4ebe-8aee-b1a7ed853975")
+	)
 	(polyline
 		(pts
 			(xy 175.26 198.12) (xy 12.7 198.12)
@@ -5215,6 +5265,26 @@
 			(justify left bottom)
 		)
 		(uuid "22d16f26-7de9-494d-9c28-1e82729125bf")
+	)
+	(label "VOUTSwitch"
+		(at 246.38 87.63 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "24eb420f-06ba-421d-8348-13e1e4f671ac")
+	)
+	(label "BUS_VMON"
+		(at 237.49 67.31 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "25209fea-d780-4c9e-80df-0710f8b0eb68")
 	)
 	(label "CHIP_PU"
 		(at 36.83 165.1 180)
@@ -5459,6 +5529,16 @@
 			(justify right bottom)
 		)
 		(uuid "5e7c3a32-8dda-4e6a-9838-c94d1f165575")
+	)
+	(label "VOUTSwitch"
+		(at 237.49 60.96 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "62739c2f-ab93-42c1-a86a-2fb4d2c0e824")
 	)
 	(label "TXD"
 		(at 30.48 54.61 0)
@@ -5760,6 +5840,26 @@
 		)
 		(uuid "e27f6c25-182c-4819-bd89-31014838b74a")
 	)
+	(label "HSIDE_EN"
+		(at 237.49 64.77 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "eca61c72-dede-424f-ba29-35f13e60033f")
+	)
+	(label "HSIDE_EN"
+		(at 135.89 105.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f282adfe-5232-4d09-bd79-25e4a8c03fef")
+	)
 	(label "TXD"
 		(at 17.78 21.59 0)
 		(effects
@@ -5789,6 +5889,16 @@
 			(justify right bottom)
 		)
 		(uuid "f7447e92-4293-41c4-be3f-69b30aad1f17")
+	)
+	(label "BUS_VMON"
+		(at 69.85 72.39 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f90ba375-c940-4a18-8e2f-212ec0f58d78")
 	)
 	(label "SD1_DET"
 		(at 194.31 31.75 180)
@@ -8568,6 +8678,72 @@
 			(project "RicardoTemplate"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83"
 					(reference "LED3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 198.12 60.96 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "665945d5-3b54-4f55-961b-28665dd80730")
+		(property "Reference" "#PWR062"
+			(at 198.12 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+16.8V"
+			(at 198.12 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 198.12 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.12 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 198.12 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8d226cf9-b711-48d9-8d7d-78ce0864e526")
+		)
+		(instances
+			(project "gridfins"
+				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83"
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -11502,6 +11678,16 @@
 				(justify right)
 			)
 		)
+		(pin "VINBuck" input
+			(at 234.95 87.63 0)
+			(uuid "dc7755a6-3bbb-4b47-91ba-5aea7d102073")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "gridfins"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83"
@@ -11690,6 +11876,88 @@
 			(project "gridfins"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83"
 					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 203.2 58.42)
+		(size 22.86 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e9970e5a-5d42-4296-a5be-541a2fadb45f")
+		(property "Sheetname" "master high side switch"
+			(at 203.2 57.7084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "highside.kicad_sch"
+			(at 203.2 69.1646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "BUS_VMON" output
+			(at 226.06 67.31 0)
+			(uuid "9b52a2c1-b564-42ed-bdab-56b54e7b4e67")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "EN" input
+			(at 226.06 64.77 0)
+			(uuid "6cc58ebd-b448-4db1-929c-6018af699473")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VIN" input
+			(at 203.2 60.96 180)
+			(uuid "e8ede8f2-d443-4051-9e1e-1d383f4f934c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VOUT" output
+			(at 226.06 60.96 0)
+			(uuid "4f0a6f89-3b5c-4b49-8f7b-5c12229a0636")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "gridfins"
+				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83"
+					(page "10")
 				)
 			)
 		)

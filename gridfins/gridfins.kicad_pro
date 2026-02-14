@@ -786,6 +786,10 @@
     [
       "5e350498-f93c-4da7-ae1f-748ce4c04899",
       "microSD reader"
+    ],
+    [
+      "e9970e5a-5d42-4296-a5be-541a2fadb45f",
+      "master high side switch"
     ]
   ],
   "text_variables": {}

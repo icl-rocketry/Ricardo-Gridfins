@@ -1586,128 +1586,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+12V"
-			(power)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+12V"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+12V\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "power-flag"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+12V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+12V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(hide yes)
-					(name "+12V"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:+6V"
 			(power)
 			(pin_names
@@ -2028,8 +1906,8 @@
 		)
 	)
 	(rectangle
-		(start 177.8 36.83)
-		(end 243.84 82.55)
+		(start 173.99 36.83)
+		(end 240.03 82.55)
 		(stroke
 			(width 0)
 			(type default)
@@ -2252,12 +2130,6 @@
 		(uuid "d603f563-bad5-4fb3-b0da-1bbb43215400")
 	)
 	(junction
-		(at 200.66 45.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d8074676-27cf-4565-b89b-f3378a293361")
-	)
-	(junction
 		(at 135.89 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2411,7 +2283,7 @@
 	)
 	(polyline
 		(pts
-			(xy 68.58 27.94) (xy 71.12 27.94)
+			(xy 60.96 27.94) (xy 71.12 27.94)
 		)
 		(stroke
 			(width 0)
@@ -2791,7 +2663,7 @@
 	)
 	(polyline
 		(pts
-			(xy 110.49 48.26) (xy 68.58 48.26)
+			(xy 110.49 48.26) (xy 60.96 48.26)
 		)
 		(stroke
 			(width 0)
@@ -2841,7 +2713,7 @@
 	)
 	(polyline
 		(pts
-			(xy 68.58 48.26) (xy 68.58 27.94)
+			(xy 60.96 48.26) (xy 60.96 27.94)
 		)
 		(stroke
 			(width 0)
@@ -2998,16 +2870,6 @@
 			(type default)
 		)
 		(uuid "cfa9c761-3abd-4fec-b5b3-c9735ac404f1")
-	)
-	(wire
-		(pts
-			(xy 185.42 45.72) (xy 200.66 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d0554740-97ec-4693-803c-871f6ad4d525")
 	)
 	(polyline
 		(pts
@@ -3379,6 +3241,17 @@
 		)
 		(uuid "f2c74551-4f18-4981-98bf-55d0345c6007")
 	)
+	(hierarchical_label "VINBuck"
+		(shape input)
+		(at 72.39 35.56 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5c5ff4e6-3956-4f75-b544-1f4ffcb34246")
+	)
 	(hierarchical_label "BUCK_EN"
 		(shape input)
 		(at 135.89 120.65 180)
@@ -3531,73 +3404,6 @@
 			(project "RicardoTemplate"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/80cb323d-06df-474c-a120-f147460ae20e"
 					(reference "#PWR058")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12V")
-		(at 185.42 45.72 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "065e5f20-b4e9-4443-b3be-ea1a808257c9")
-		(property "Reference" "#PWR075"
-			(at 185.42 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "16.8V"
-			(at 187.96 44.4499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 185.42 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 185.42 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 185.42 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "65954fe8-2e3c-4f34-9ebb-64e6b730cf91")
-		)
-		(instances
-			(project "RicardoTemplate"
-				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/80cb323d-06df-474c-a120-f147460ae20e"
-					(reference "#PWR075")
 					(unit 1)
 				)
 			)
@@ -3798,73 +3604,6 @@
 			(project "RicardoTemplate"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/80cb323d-06df-474c-a120-f147460ae20e"
 					(reference "#PWR070")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12V")
-		(at 72.39 35.56 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2253b003-7515-40cb-a58a-c40f6cfd0b07")
-		(property "Reference" "#PWR062"
-			(at 72.39 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+16.8V"
-			(at 74.93 34.2899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 72.39 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 72.39 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 72.39 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "252f200a-724e-4e7e-a3b7-6be70751eb10")
-		)
-		(instances
-			(project "RicardoTemplate"
-				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/80cb323d-06df-474c-a120-f147460ae20e"
-					(reference "#PWR062")
 					(unit 1)
 				)
 			)
