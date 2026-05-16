@@ -3452,7 +3452,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "2536030320001"
+		(property "Footprint" "iclr:2536030320001"
 			(at 161.29 144.45 0)
 			(effects
 				(font
