@@ -470,7 +470,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -773,7 +773,7 @@
     ],
     [
       "80cb323d-06df-474c-a120-f147460ae20e",
-      "Buck"
+      "Buck_H_bridge"
     ],
     [
       "c6ca599c-0f4a-4287-87f7-9e6e3f985752",
@@ -790,6 +790,10 @@
     [
       "e9970e5a-5d42-4296-a5be-541a2fadb45f",
       "master high side switch"
+    ],
+    [
+      "e90da388-a5dc-4cb1-b53c-a649e8fe32ec",
+      "Buck_SERVO"
     ]
   ],
   "text_variables": {}
