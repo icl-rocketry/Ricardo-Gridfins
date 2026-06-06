@@ -2472,7 +2472,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CON_1053131104"
+		(property "Footprint" "Connector_Molex:Molex_Nano-Fit_105309-xx04_1x04_P2.50mm_Vertical"
 			(at 219.71 91.186 0)
 			(effects
 				(font
@@ -2544,7 +2544,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 177.8 94.488 90)
 			(effects
 				(font
@@ -2677,7 +2677,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 68.58 74.168 90)
 			(effects
 				(font
@@ -2811,7 +2811,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PWP_24"
+		(property "Footprint" "iclr:PWP_24"
 			(at 86.36 69.85 0)
 			(effects
 				(font
@@ -2951,7 +2951,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 180.34 77.47 0)
 			(effects
 				(font
@@ -3018,7 +3018,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 68.58 76.708 90)
 			(effects
 				(font
@@ -3153,7 +3153,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 185.42 82.55 0)
 			(effects
 				(font
@@ -3288,7 +3288,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 176.53 69.85 0)
 			(effects
 				(font
@@ -3421,7 +3421,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 177.8 102.108 90)
 			(effects
 				(font

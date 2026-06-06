@@ -1986,7 +1986,7 @@
 		)
 		(uuid "cb59d19e-e25e-417d-822b-aa6d9ca29b23")
 	)
-	(text_box "Remove this resistor for 7.4V mode"
+	(text_box "Remove this resistor for 10V mode"
 		(exclude_from_sim no)
 		(at 124.46 46.99 0)
 		(size 12.7 7.62)
@@ -3214,7 +3214,7 @@
 		)
 		(uuid "a9477642-47c1-47a2-80f6-447dd83f7d1a")
 	)
-	(label "VOUT_H_Bridge"
+	(label "VOUT"
 		(at 121.92 52.07 180)
 		(effects
 			(font
@@ -7030,7 +7030,7 @@
 				)
 			)
 		)
-		(property "Value" "113k"
+		(property "Value" "157k"
 			(at 121.92 63.4969 0)
 			(effects
 				(font

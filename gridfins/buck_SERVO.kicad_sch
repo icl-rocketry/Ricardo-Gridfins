@@ -3211,7 +3211,7 @@
 		)
 		(uuid "a9477642-47c1-47a2-80f6-447dd83f7d1a")
 	)
-	(label "VOUT_H_Bridge"
+	(label "VOUT"
 		(at 121.92 52.07 180)
 		(effects
 			(font
