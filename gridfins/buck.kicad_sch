@@ -5370,7 +5370,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "9b9c08f1-e421-41d6-85b2-f59776829b66")
 		(property "Reference" "R38"
 			(at 132.08 60.96 0)
@@ -5380,7 +5380,7 @@
 				)
 			)
 		)
-		(property "Value" "442k"
+		(property "Value" "0"
 			(at 132.08 63.4969 0)
 			(effects
 				(font
