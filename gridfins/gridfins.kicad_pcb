@@ -22637,7 +22637,7 @@
 		(at 244.679 110.2452)
 		(tags "DRV8834PWP ")
 		(property "Reference" "U7"
-			(at 0 0 0)
+			(at 0.1 -0.13 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "3c1f65ff-2a18-416c-b393-d9fe4936b891")
@@ -23910,10 +23910,13 @@
 			(pintype "output")
 			(uuid "2f36f869-1abd-4e9d-a900-815c8dbccf4f")
 		)
-		(pad "25" smd rect
+		(pad "EPAD" smd rect
 			(at 0 0)
 			(size 2.4 3.280001)
 			(layers "F.Cu" "F.Mask")
+			(net 1 "GND")
+			(pinfunction "EPAD")
+			(pintype "unspecified")
 			(uuid "97ab1888-14f9-4bdd-9f28-3f88871f8d77")
 		)
 		(embedded_fonts no)
