@@ -2844,13 +2844,13 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "004fccfa-cf62-4782-a2b5-3ed297ccfde5")
-		(property "Reference" "TP12"
+		(property "Reference" "TP1101"
 			(at 72.39 92.2019 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2911,7 +2911,7 @@
 		(instances
 			(project "gridfins"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/a2b9d01a-f05c-4fe0-bfaf-c74e95793a8f"
-					(reference "TP12")
+					(reference "TP1101")
 					(unit 1)
 				)
 			)
@@ -2929,7 +2929,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "198ed502-1498-4946-918c-c94f3cc4a25b")
-		(property "Reference" "J8"
+		(property "Reference" "J1101"
 			(at 236.22 124.46 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2996,7 +2996,7 @@
 		(instances
 			(project "gridfins"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/a2b9d01a-f05c-4fe0-bfaf-c74e95793a8f"
-					(reference "J8")
+					(reference "J1101")
 					(unit 1)
 				)
 			)
@@ -3013,7 +3013,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "228992bb-40a6-4fda-bbba-eb063070deab")
-		(property "Reference" "R43"
+		(property "Reference" "R1105"
 			(at 177.546 89.154 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3023,7 +3023,7 @@
 				)
 			)
 		)
-		(property "Value" "0.5"
+		(property "Value" "0.5Ω"
 			(at 177.8 90.932 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3075,7 +3075,7 @@
 		(instances
 			(project "gridfins"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/a2b9d01a-f05c-4fe0-bfaf-c74e95793a8f"
-					(reference "R43")
+					(reference "R1105")
 					(unit 1)
 				)
 			)
@@ -3092,7 +3092,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "359fe316-48ee-4435-bf79-aa63aae89791")
-		(property "Reference" "C28"
+		(property "Reference" "C1104"
 			(at 192.278 76.454 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3103,7 +3103,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "100nF"
 			(at 192.278 78.232 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3156,7 +3156,7 @@
 		(instances
 			(project "gridfins"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/a2b9d01a-f05c-4fe0-bfaf-c74e95793a8f"
-					(reference "C28")
+					(reference "C1104")
 					(unit 1)
 				)
 			)
@@ -3174,7 +3174,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3cb0f4f4-57e6-4492-9059-573800386833")
-		(property "Reference" "#PWR091"
+		(property "Reference" "#PWR01101"
 			(at 55.88 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -3234,7 +3234,7 @@
 		(instances
 			(project "gridfins"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/a2b9d01a-f05c-4fe0-bfaf-c74e95793a8f"
-					(reference "#PWR091")
+					(reference "#PWR01101")
 					(unit 1)
 				)
 			)
@@ -3252,7 +3252,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5e94ff27-90cc-4c94-bfcf-47b620f3ccdf")
-		(property "Reference" "#PWR092"
+		(property "Reference" "#PWR01102"
 			(at 59.69 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -3312,7 +3312,7 @@
 		(instances
 			(project "gridfins"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/a2b9d01a-f05c-4fe0-bfaf-c74e95793a8f"
-					(reference "#PWR092")
+					(reference "#PWR01102")
 					(unit 1)
 				)
 			)
@@ -3329,7 +3329,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "746c16b2-0c96-4841-8fd3-3149c21708d9")
-		(property "Reference" "R40"
+		(property "Reference" "R1102"
 			(at 68.326 67.818 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3339,7 +3339,7 @@
 				)
 			)
 		)
-		(property "Value" "51K"
+		(property "Value" "51kΩ"
 			(at 68.072 77.216 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3391,7 +3391,7 @@
 		(instances
 			(project "gridfins"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/a2b9d01a-f05c-4fe0-bfaf-c74e95793a8f"
-					(reference "R40")
+					(reference "R1102")
 					(unit 1)
 				)
 			)
@@ -3408,7 +3408,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "78a91cbb-180e-4156-810f-dbaf54a4cc54")
-		(property "Reference" "#PWR0113"
+		(property "Reference" "#PWR01107"
 			(at 187.96 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -3468,7 +3468,7 @@
 		(instances
 			(project "gridfins"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/a2b9d01a-f05c-4fe0-bfaf-c74e95793a8f"
-					(reference "#PWR0113")
+					(reference "#PWR01107")
 					(unit 1)
 				)
 			)
@@ -3485,7 +3485,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7f350460-2e1b-4fe2-a763-aa41c19b1c18")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR01105"
 			(at 184.15 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -3545,7 +3545,7 @@
 		(instances
 			(project "gridfins"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/a2b9d01a-f05c-4fe0-bfaf-c74e95793a8f"
-					(reference "#PWR016")
+					(reference "#PWR01105")
 					(unit 1)
 				)
 			)
@@ -3563,7 +3563,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7f9958c7-c738-4087-84cb-0dcd217ee683")
-		(property "Reference" "R47"
+		(property "Reference" "R1101"
 			(at 67.31 83.82 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3573,7 +3573,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "10kΩ"
 			(at 67.31 86.36 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3625,7 +3625,7 @@
 		(instances
 			(project "gridfins"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/a2b9d01a-f05c-4fe0-bfaf-c74e95793a8f"
-					(reference "R47")
+					(reference "R1101")
 					(unit 1)
 				)
 			)
@@ -3643,7 +3643,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8b70c462-270c-4d0f-97df-6211dff99919")
-		(property "Reference" "#PWR075"
+		(property "Reference" "#PWR01103"
 			(at 85.09 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -3703,7 +3703,7 @@
 		(instances
 			(project "gridfins"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/a2b9d01a-f05c-4fe0-bfaf-c74e95793a8f"
-					(reference "#PWR075")
+					(reference "#PWR01103")
 					(unit 1)
 				)
 			)
@@ -3721,7 +3721,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9492e4c7-f711-460c-8999-10376b8f00d4")
-		(property "Reference" "U7"
+		(property "Reference" "U1101"
 			(at 127.781 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3854,7 +3854,7 @@
 		(instances
 			(project "gridfins"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/a2b9d01a-f05c-4fe0-bfaf-c74e95793a8f"
-					(reference "U7")
+					(reference "U1101")
 					(unit 1)
 				)
 			)
@@ -3871,7 +3871,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9f684268-56a7-4b85-9100-60a90c8abda7")
-		(property "Reference" "R41"
+		(property "Reference" "R1103"
 			(at 67.818 78.994 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3881,7 +3881,7 @@
 				)
 			)
 		)
-		(property "Value" "51K"
+		(property "Value" "51kΩ"
 			(at 68.58 70.104 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3933,7 +3933,7 @@
 		(instances
 			(project "gridfins"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/a2b9d01a-f05c-4fe0-bfaf-c74e95793a8f"
-					(reference "R41")
+					(reference "R1103")
 					(unit 1)
 				)
 			)
@@ -3950,7 +3950,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a1e7b573-4abd-45bd-aab8-3be99b9af9f9")
-		(property "Reference" "C29"
+		(property "Reference" "C1105"
 			(at 202.692 76.454 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4014,7 +4014,7 @@
 		(instances
 			(project "gridfins"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/a2b9d01a-f05c-4fe0-bfaf-c74e95793a8f"
-					(reference "C29")
+					(reference "C1105")
 					(unit 1)
 				)
 			)
@@ -4031,7 +4031,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ad625935-0fcf-4315-ab8e-5819ab48a269")
-		(property "Reference" "C56"
+		(property "Reference" "C1103"
 			(at 182.372 82.3022 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4042,7 +4042,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.01uF"
+		(property "Value" "10nF"
 			(at 182.372 84.074 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4095,7 +4095,7 @@
 		(instances
 			(project "gridfins"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/a2b9d01a-f05c-4fe0-bfaf-c74e95793a8f"
-					(reference "C56")
+					(reference "C1103")
 					(unit 1)
 				)
 			)
@@ -4113,7 +4113,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c35731ba-a4ee-46ad-8481-ef6abe80d458")
-		(property "Reference" "R46"
+		(property "Reference" "R1104"
 			(at 82.55 62.2299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4124,7 +4124,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "10kΩ"
 			(at 82.55 64.7699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4177,7 +4177,7 @@
 		(instances
 			(project "gridfins"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/a2b9d01a-f05c-4fe0-bfaf-c74e95793a8f"
-					(reference "R46")
+					(reference "R1104")
 					(unit 1)
 				)
 			)
@@ -4194,7 +4194,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "dc302837-7067-4dd2-b1d8-91ce0e286327")
-		(property "Reference" "#PWR0118"
+		(property "Reference" "#PWR01106"
 			(at 187.96 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -4254,7 +4254,7 @@
 		(instances
 			(project "gridfins"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/a2b9d01a-f05c-4fe0-bfaf-c74e95793a8f"
-					(reference "#PWR0118")
+					(reference "#PWR01106")
 					(unit 1)
 				)
 			)
@@ -4271,7 +4271,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "dd20d05a-31a5-4f78-80ce-22161e8962ca")
-		(property "Reference" "C30"
+		(property "Reference" "C1106"
 			(at 210.312 76.454 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4335,7 +4335,7 @@
 		(instances
 			(project "gridfins"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/a2b9d01a-f05c-4fe0-bfaf-c74e95793a8f"
-					(reference "C30")
+					(reference "C1106")
 					(unit 1)
 				)
 			)
@@ -4352,7 +4352,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e383e6d8-f339-43bc-832e-dc853b260f9e")
-		(property "Reference" "C57"
+		(property "Reference" "C1101"
 			(at 182.6198 71.628 0)
 			(hide yes)
 			(show_name no)
@@ -4417,7 +4417,7 @@
 		(instances
 			(project "gridfins"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/a2b9d01a-f05c-4fe0-bfaf-c74e95793a8f"
-					(reference "C57")
+					(reference "C1101")
 					(unit 1)
 				)
 			)
@@ -4434,7 +4434,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ed064b29-f4a4-40b1-a492-cc6da6b34b26")
-		(property "Reference" "#PWR090"
+		(property "Reference" "#PWR01104"
 			(at 175.26 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -4495,7 +4495,7 @@
 		(instances
 			(project "gridfins"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/a2b9d01a-f05c-4fe0-bfaf-c74e95793a8f"
-					(reference "#PWR090")
+					(reference "#PWR01104")
 					(unit 1)
 				)
 			)
@@ -4512,7 +4512,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "edc77547-5f9c-413c-8aba-d6e0ddbcdde7")
-		(property "Reference" "C19"
+		(property "Reference" "C1102"
 			(at 182.8136 76.708 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4523,7 +4523,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "0.01uF"
+		(property "Value" "10nF"
 			(at 181.7976 78.486 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4576,7 +4576,7 @@
 		(instances
 			(project "gridfins"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/a2b9d01a-f05c-4fe0-bfaf-c74e95793a8f"
-					(reference "C19")
+					(reference "C1102")
 					(unit 1)
 				)
 			)
@@ -4593,7 +4593,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f0e4cd72-2a97-4f83-8b78-33a92cf57aa8")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR01108"
 			(at 223.52 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -4653,7 +4653,7 @@
 		(instances
 			(project "gridfins"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/a2b9d01a-f05c-4fe0-bfaf-c74e95793a8f"
-					(reference "#PWR028")
+					(reference "#PWR01108")
 					(unit 1)
 				)
 			)
@@ -4670,7 +4670,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f1439d6a-587e-47aa-a56c-c1f6cd6b8cce")
-		(property "Reference" "R44"
+		(property "Reference" "R1106"
 			(at 177.546 96.774 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4680,7 +4680,7 @@
 				)
 			)
 		)
-		(property "Value" "0.5"
+		(property "Value" "0.5Ω"
 			(at 177.8 98.552 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4732,7 +4732,7 @@
 		(instances
 			(project "gridfins"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/a2b9d01a-f05c-4fe0-bfaf-c74e95793a8f"
-					(reference "R44")
+					(reference "R1106")
 					(unit 1)
 				)
 			)

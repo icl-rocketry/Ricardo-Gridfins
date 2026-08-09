@@ -1688,7 +1688,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 88.138) (xy 115.57 87.122)
+			(xy 111.76 88.138) (xy 111.76 86.36)
 		)
 		(stroke
 			(width 0)
@@ -1778,7 +1778,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 77.47) (xy 128.016 77.47)
+			(xy 111.76 77.47) (xy 128.016 77.47)
 		)
 		(stroke
 			(width 0)
@@ -1798,7 +1798,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.016 88.138) (xy 115.57 88.138)
+			(xy 128.016 88.138) (xy 111.76 88.138)
 		)
 		(stroke
 			(width 0)
@@ -1808,7 +1808,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 79.502) (xy 115.57 77.47)
+			(xy 111.76 78.74) (xy 111.76 77.47)
 		)
 		(stroke
 			(width 0)
@@ -1884,17 +1884,17 @@
 	)
 	(symbol
 		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 115.57 83.312 270)
+		(at 111.76 82.55 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "023ffc9f-c03c-43c1-9ffd-af40b28600f0")
-		(property "Reference" "JP34"
-			(at 110.49 83.312 0)
+		(property "Reference" "JP801"
+			(at 106.68 82.55 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1904,7 +1904,7 @@
 			)
 		)
 		(property "Value" "SolderJumper_2_Open"
-			(at 83.82 65.532 0)
+			(at 80.01 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1915,7 +1915,7 @@
 			)
 		)
 		(property "Footprint" "iclr:SmallerSolderJP"
-			(at 115.57 83.312 0)
+			(at 111.76 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1926,7 +1926,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 115.57 83.312 0)
+			(at 111.76 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1937,7 +1937,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 115.57 83.312 0)
+			(at 111.76 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1956,7 +1956,7 @@
 		(instances
 			(project "gridfins"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/5e350498-f93c-4da7-ae1f-748ce4c04899"
-					(reference "JP34")
+					(reference "JP801")
 					(unit 1)
 				)
 			)
@@ -1973,7 +1973,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0708d0a0-55dd-4d31-9935-4614bceb2407")
-		(property "Reference" "#PWR089"
+		(property "Reference" "#PWR0805"
 			(at 148.844 76.962 0)
 			(hide yes)
 			(show_name no)
@@ -2033,7 +2033,7 @@
 		(instances
 			(project "gridfins"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/5e350498-f93c-4da7-ae1f-748ce4c04899"
-					(reference "#PWR089")
+					(reference "#PWR0805")
 					(unit 1)
 				)
 			)
@@ -2050,8 +2050,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "27a28ab8-4f20-4790-a36f-09c87b786cf2")
-		(property "Reference" "R71"
-			(at 132.969 85.7281 0)
+		(property "Reference" "R801"
+			(at 140.462 84.836 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2060,8 +2060,8 @@
 				)
 			)
 		)
-		(property "Value" "1k"
-			(at 132.969 88.265 0)
+		(property "Value" "1kΩ"
+			(at 140.462 87.3729 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2112,7 +2112,7 @@
 		(instances
 			(project "gridfins"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/5e350498-f93c-4da7-ae1f-748ce4c04899"
-					(reference "R71")
+					(reference "R801")
 					(unit 1)
 				)
 			)
@@ -2129,7 +2129,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3087974c-85fa-4b44-9808-130286801e70")
-		(property "Reference" "#PWR088"
+		(property "Reference" "#PWR0803"
 			(at 129.032 108.458 0)
 			(hide yes)
 			(show_name no)
@@ -2189,7 +2189,7 @@
 		(instances
 			(project "gridfins"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/5e350498-f93c-4da7-ae1f-748ce4c04899"
-					(reference "#PWR088")
+					(reference "#PWR0803")
 					(unit 1)
 				)
 			)
@@ -2207,7 +2207,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3101febf-04bb-420b-89f7-89687aace8b3")
-		(property "Reference" "Q3"
+		(property "Reference" "Q801"
 			(at 124.206 81.788 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2318,7 +2318,7 @@
 		(instances
 			(project "gridfins"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/5e350498-f93c-4da7-ae1f-748ce4c04899"
-					(reference "Q3")
+					(reference "Q801")
 					(unit 1)
 				)
 			)
@@ -2336,7 +2336,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "46e80726-1f91-41bc-89a8-95af4f60b8e2")
-		(property "Reference" "#PWR095"
+		(property "Reference" "#PWR0802"
 			(at 128.016 80.264 0)
 			(hide yes)
 			(show_name no)
@@ -2396,7 +2396,7 @@
 		(instances
 			(project "gridfins"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/5e350498-f93c-4da7-ae1f-748ce4c04899"
-					(reference "#PWR095")
+					(reference "#PWR0802")
 					(unit 1)
 				)
 			)
@@ -2413,7 +2413,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6d7269f1-1277-458d-8c3d-87931a20a535")
-		(property "Reference" "R30"
+		(property "Reference" "R802"
 			(at 145.034 73.152 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2423,7 +2423,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "10kΩ"
 			(at 145.034 75.692 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2475,7 +2475,7 @@
 		(instances
 			(project "gridfins"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/5e350498-f93c-4da7-ae1f-748ce4c04899"
-					(reference "R30")
+					(reference "R802")
 					(unit 1)
 				)
 			)
@@ -2492,7 +2492,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "72dc8118-1e20-4342-ad9f-abce628f6502")
-		(property "Reference" "C51"
+		(property "Reference" "C801"
 			(at 119.126 91.948 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2502,7 +2502,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "100nF"
 			(at 119.126 94.2594 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2554,7 +2554,7 @@
 		(instances
 			(project "gridfins"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/5e350498-f93c-4da7-ae1f-748ce4c04899"
-					(reference "C51")
+					(reference "C801")
 					(unit 1)
 				)
 			)
@@ -2572,7 +2572,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8e073398-1327-4b11-b651-391233bc333b")
-		(property "Reference" "J6"
+		(property "Reference" "J801"
 			(at 162.814 77.6435 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2824,7 +2824,7 @@
 		(instances
 			(project "gridfins"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/5e350498-f93c-4da7-ae1f-748ce4c04899"
-					(reference "J6")
+					(reference "J801")
 					(unit 1)
 				)
 			)
@@ -2841,7 +2841,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "95aea144-9ad8-4357-a25e-3f51fe73e2eb")
-		(property "Reference" "#PWR094"
+		(property "Reference" "#PWR0801"
 			(at 124.206 100.838 0)
 			(hide yes)
 			(show_name no)
@@ -2901,7 +2901,7 @@
 		(instances
 			(project "gridfins"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/5e350498-f93c-4da7-ae1f-748ce4c04899"
-					(reference "#PWR094")
+					(reference "#PWR0801")
 					(unit 1)
 				)
 			)
@@ -2919,7 +2919,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cd8bf668-a7da-485c-ac15-a65dff34e002")
-		(property "Reference" "#PWR0154"
+		(property "Reference" "#PWR0804"
 			(at 136.398 94.488 0)
 			(hide yes)
 			(show_name no)
@@ -2981,7 +2981,7 @@
 		(instances
 			(project "gridfins"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/5e350498-f93c-4da7-ae1f-748ce4c04899"
-					(reference "#PWR0154")
+					(reference "#PWR0804")
 					(unit 1)
 				)
 			)
@@ -2999,7 +2999,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f85e3c25-fe11-4287-9d9f-e691bfc5a092")
-		(property "Reference" "#PWR0157"
+		(property "Reference" "#PWR0806"
 			(at 178.054 121.158 0)
 			(hide yes)
 			(show_name no)
@@ -3059,7 +3059,7 @@
 		(instances
 			(project "gridfins"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/5e350498-f93c-4da7-ae1f-748ce4c04899"
-					(reference "#PWR0157")
+					(reference "#PWR0806")
 					(unit 1)
 				)
 			)

@@ -1785,16 +1785,16 @@
 		(uuid "03caada9-9e22-4e2d-9035-b15433dfbb17")
 	)
 	(junction
-		(at 125.73 96.52)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0f54db53-a272-4955-88fb-d7ab00657bb0")
-	)
-	(junction
 		(at 96.52 127)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6bfe5804-2ef9-4c65-b2a7-f01e4014370a")
+	)
+	(junction
+		(at 130.81 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "73fb3592-4a4e-407f-8b25-b6d8f914f90a")
 	)
 	(junction
 		(at 115.57 102.87)
@@ -1822,6 +1822,16 @@
 	)
 	(wire
 		(pts
+			(xy 135.89 96.52) (xy 135.89 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00a12c8c-039a-414e-8868-830262c9f2ab")
+	)
+	(wire
+		(pts
 			(xy 44.45 104.14) (xy 52.07 104.14)
 		)
 		(stroke
@@ -1829,6 +1839,16 @@
 			(type default)
 		)
 		(uuid "0e8f7fc0-2ef2-4b90-9c15-8a3a601ee459")
+	)
+	(wire
+		(pts
+			(xy 149.86 90.17) (xy 149.86 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15584f46-1035-470a-89d6-8adab85a8039")
 	)
 	(wire
 		(pts
@@ -1912,16 +1932,6 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 93.98) (xy 125.73 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "80094b70-85ab-4ff6-934b-60d5ee65023a")
-	)
-	(wire
-		(pts
 			(xy 92.71 127) (xy 96.52 127)
 		)
 		(stroke
@@ -1932,23 +1942,53 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 93.98) (xy 120.65 93.98)
+			(xy 167.64 95.25) (xy 167.64 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97eb7b9e-0b0e-4c26-bb47-836407165a92")
+	)
+	(wire
+		(pts
+			(xy 130.81 96.52) (xy 135.89 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a59e36a1-f236-428e-81ce-24bc92ed1e16")
+	)
+	(wire
+		(pts
+			(xy 130.81 96.52) (xy 130.81 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6dd4836-8913-43a6-9fc2-830d8559c83e")
+	)
+	(wire
+		(pts
+			(xy 167.64 92.71) (xy 165.1 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6ff34f5-d083-4c9e-832b-c8ab8f03cc7d")
+	)
+	(wire
+		(pts
+			(xy 115.57 93.98) (xy 125.73 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b88717bd-086f-46cd-9d3f-0396009d0996")
-	)
-	(wire
-		(pts
-			(xy 125.73 99.06) (xy 125.73 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bfc0aadc-38cf-466e-a642-68fdc3138c78")
 	)
 	(wire
 		(pts
@@ -1962,13 +2002,13 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 96.52) (xy 127 96.52)
+			(xy 130.81 93.98) (xy 130.81 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d4a1d3c4-b315-4bec-9220-d12a9eab51e0")
+		(uuid "d171ad1f-b372-431c-98ea-f0483dd96ad6")
 	)
 	(wire
 		(pts
@@ -1979,6 +2019,16 @@
 			(type default)
 		)
 		(uuid "d7269d2a-b8c0-422d-8f25-f79ea31bf75e")
+	)
+	(wire
+		(pts
+			(xy 149.86 92.71) (xy 152.4 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db24d35d-e6c4-4762-8b1d-9c116eb65018")
 	)
 	(wire
 		(pts
@@ -2012,7 +2062,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 99.06) (xy 120.65 99.06)
+			(xy 118.11 99.06) (xy 125.73 99.06)
 		)
 		(stroke
 			(width 0)
@@ -2114,7 +2164,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 127 96.52 90)
+		(at 135.89 99.06 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2123,8 +2173,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000061988bf8")
-		(property "Reference" "#PWR031"
-			(at 133.35 96.52 0)
+		(property "Reference" "#PWR0603"
+			(at 135.89 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2135,7 +2185,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 130.2512 96.393 90)
+			(at 137.922 102.616 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2146,7 +2196,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 127 96.52 0)
+			(at 135.89 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2157,7 +2207,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 96.52 0)
+			(at 135.89 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2168,7 +2218,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 127 96.52 0)
+			(at 135.89 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2184,7 +2234,7 @@
 		(instances
 			(project "gridfins"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/00000000-0000-0000-0000-000061925999"
-					(reference "#PWR031")
+					(reference "#PWR0603")
 					(unit 1)
 				)
 			)
@@ -2192,7 +2242,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 123.19 99.06 270)
+		(at 128.27 99.06 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2201,8 +2251,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000061988c01")
-		(property "Reference" "R12"
-			(at 129.54 100.33 90)
+		(property "Reference" "R602"
+			(at 128.27 101.3206 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2211,8 +2261,8 @@
 				)
 			)
 		)
-		(property "Value" "5.1k"
-			(at 129.54 102.6414 90)
+		(property "Value" "5.1kΩ"
+			(at 128.27 103.632 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2222,7 +2272,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 123.19 99.06 0)
+			(at 128.27 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2233,7 +2283,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 123.19 99.06 0)
+			(at 128.27 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2244,7 +2294,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 123.19 99.06 0)
+			(at 128.27 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2263,7 +2313,7 @@
 		(instances
 			(project "gridfins"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/00000000-0000-0000-0000-000061925999"
-					(reference "R12")
+					(reference "R602")
 					(unit 1)
 				)
 			)
@@ -2271,7 +2321,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 123.19 93.98 90)
+		(at 128.27 93.98 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2280,8 +2330,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000061988c0e")
-		(property "Reference" "R11"
-			(at 123.19 89.0016 90)
+		(property "Reference" "R601"
+			(at 128.27 89.0016 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2290,8 +2340,8 @@
 				)
 			)
 		)
-		(property "Value" "5.1k"
-			(at 123.19 91.313 90)
+		(property "Value" "5.1kΩ"
+			(at 128.27 91.313 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2301,7 +2351,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 123.19 93.98 0)
+			(at 128.27 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2312,7 +2362,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 123.19 93.98 0)
+			(at 128.27 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2323,7 +2373,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 123.19 93.98 0)
+			(at 128.27 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2342,7 +2392,7 @@
 		(instances
 			(project "gridfins"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/00000000-0000-0000-0000-000061925999"
-					(reference "R11")
+					(reference "R601")
 					(unit 1)
 				)
 			)
@@ -2359,7 +2409,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000061988c18")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR0601"
 			(at 96.52 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -2419,7 +2469,7 @@
 		(instances
 			(project "gridfins"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/00000000-0000-0000-0000-000061925999"
-					(reference "#PWR029")
+					(reference "#PWR0601")
 					(unit 1)
 				)
 			)
@@ -2436,8 +2486,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000061988c49")
-		(property "Reference" "J2"
-			(at 103.0478 82.1182 0)
+		(property "Reference" "J601"
+			(at 100.33 82.0166 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2447,7 +2497,7 @@
 			)
 		)
 		(property "Value" "USB_C_Receptacle_USB2.0"
-			(at 103.0478 84.4296 0)
+			(at 100.33 84.328 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2543,7 +2593,7 @@
 		(instances
 			(project "gridfins"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/00000000-0000-0000-0000-000061925999"
-					(reference "J2")
+					(reference "J601")
 					(unit 1)
 				)
 			)
@@ -2560,7 +2610,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000061988c86")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR0605"
 			(at 132.08 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -2620,7 +2670,7 @@
 		(instances
 			(project "gridfins"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/00000000-0000-0000-0000-000061925999"
-					(reference "#PWR032")
+					(reference "#PWR0605")
 					(unit 1)
 				)
 			)
@@ -2637,7 +2687,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000061988c8c")
-		(property "Reference" "D2"
+		(property "Reference" "D601"
 			(at 137.287 138.5316 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2708,7 +2758,7 @@
 		(instances
 			(project "gridfins"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/00000000-0000-0000-0000-000061925999"
-					(reference "D2")
+					(reference "D601")
 					(unit 1)
 				)
 			)
@@ -2725,7 +2775,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000061a236c4")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR0602"
 			(at 116.84 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -2737,7 +2787,7 @@
 			)
 		)
 		(property "Value" "VBUS"
-			(at 117.221 81.8388 90)
+			(at 114.3 81.534 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2786,7 +2836,7 @@
 		(instances
 			(project "gridfins"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/00000000-0000-0000-0000-000061925999"
-					(reference "#PWR030")
+					(reference "#PWR0602")
 					(unit 1)
 				)
 			)
@@ -2798,12 +2848,12 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000061ab7cb8")
-		(property "Reference" "TP1"
+		(property "Reference" "TP601"
 			(at 56.8452 97.8916 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2864,7 +2914,7 @@
 		(instances
 			(project "gridfins"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/00000000-0000-0000-0000-000061925999"
-					(reference "TP1")
+					(reference "TP601")
 					(unit 1)
 				)
 			)
@@ -2876,12 +2926,12 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000061ab87f3")
-		(property "Reference" "TP2"
+		(property "Reference" "TP602"
 			(at 56.8452 102.9716 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2942,7 +2992,7 @@
 		(instances
 			(project "gridfins"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/00000000-0000-0000-0000-000061925999"
-					(reference "TP2")
+					(reference "TP602")
 					(unit 1)
 				)
 			)
@@ -2959,7 +3009,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000061b104ea")
-		(property "Reference" "LED6"
+		(property "Reference" "LED601"
 			(at 162.56 87.503 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2969,7 +3019,7 @@
 				)
 			)
 		)
-		(property "Value" "WHITE_LED"
+		(property "Value" "LED_WHITE"
 			(at 162.56 89.8144 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3021,7 +3071,7 @@
 		(instances
 			(project "gridfins"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/00000000-0000-0000-0000-000061925999"
-					(reference "LED6")
+					(reference "LED601")
 					(unit 1)
 				)
 			)
@@ -3038,7 +3088,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000061b104f0")
-		(property "Reference" "R13"
+		(property "Reference" "R603"
 			(at 154.94 95.3516 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3048,7 +3098,7 @@
 				)
 			)
 		)
-		(property "Value" "5.1k"
+		(property "Value" "5.1kΩ"
 			(at 154.94 97.663 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3100,7 +3150,7 @@
 		(instances
 			(project "gridfins"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/00000000-0000-0000-0000-000061925999"
-					(reference "R13")
+					(reference "R603")
 					(unit 1)
 				)
 			)
@@ -3108,7 +3158,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 165.1 92.71 90)
+		(at 167.64 95.25 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3117,8 +3167,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000061b11f2f")
-		(property "Reference" "#PWR034"
-			(at 171.45 92.71 0)
+		(property "Reference" "#PWR0607"
+			(at 167.64 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3129,7 +3179,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 168.3512 92.583 90)
+			(at 169.672 98.806 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3140,7 +3190,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 165.1 92.71 0)
+			(at 167.64 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3151,7 +3201,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 165.1 92.71 0)
+			(at 167.64 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3162,7 +3212,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 165.1 92.71 0)
+			(at 167.64 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3178,7 +3228,7 @@
 		(instances
 			(project "gridfins"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/00000000-0000-0000-0000-000061925999"
-					(reference "#PWR034")
+					(reference "#PWR0607")
 					(unit 1)
 				)
 			)
@@ -3186,7 +3236,7 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 152.4 92.71 90)
+		(at 149.86 90.17 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3195,8 +3245,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000061b168a6")
-		(property "Reference" "#PWR033"
-			(at 156.21 92.71 0)
+		(property "Reference" "#PWR0606"
+			(at 149.86 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3207,7 +3257,7 @@
 			)
 		)
 		(property "Value" "VBUS"
-			(at 149.1488 92.329 90)
+			(at 150.241 86.9188 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3218,7 +3268,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 152.4 92.71 0)
+			(at 149.86 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3229,7 +3279,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 152.4 92.71 0)
+			(at 149.86 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3240,7 +3290,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 152.4 92.71 0)
+			(at 149.86 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3256,7 +3306,7 @@
 		(instances
 			(project "gridfins"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/00000000-0000-0000-0000-000061925999"
-					(reference "#PWR033")
+					(reference "#PWR0606")
 					(unit 1)
 				)
 			)
@@ -3273,7 +3323,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c2f1504f-2289-4262-813c-3fe84e327bb6")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR0604"
 			(at 129.54 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -3334,7 +3384,7 @@
 		(instances
 			(project "gridfins"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/00000000-0000-0000-0000-000061925999"
-					(reference "#PWR09")
+					(reference "#PWR0604")
 					(unit 1)
 				)
 			)

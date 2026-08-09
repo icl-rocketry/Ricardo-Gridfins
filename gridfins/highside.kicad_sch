@@ -1320,7 +1320,7 @@
 	)
 	(text "Batt Mon - 3.0V out @ 35V in\nOvervoltage cutoff - 32V\nCheck sizing script"
 		(exclude_from_sim no)
-		(at 175.514 101.6 0)
+		(at 184.404 103.632 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1335,10 +1335,10 @@
 		(uuid "2dc7b8e5-0481-411a-b572-46fbee72af22")
 	)
 	(junction
-		(at 152.4 95.25)
+		(at 157.48 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "53d2b063-2de6-4cab-8cdb-e3c364d205f3")
+		(uuid "5732be72-d135-49b9-865c-0fcfd4f4841d")
 	)
 	(junction
 		(at 127 72.39)
@@ -1383,10 +1383,10 @@
 		(uuid "ae0701c9-a74a-4d0d-9f9e-4a0a0ae70e82")
 	)
 	(junction
-		(at 152.4 100.33)
+		(at 157.48 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d5f782bc-aabe-40bb-bcd2-a22f3dc28986")
+		(uuid "af3c2a79-8842-4af5-bbd7-46cbd4037e7b")
 	)
 	(junction
 		(at 135.89 68.58)
@@ -1536,7 +1536,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 100.33) (xy 152.4 100.33)
+			(xy 147.32 100.33) (xy 157.48 100.33)
 		)
 		(stroke
 			(width 0)
@@ -1576,7 +1576,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 95.25) (xy 152.4 95.25)
+			(xy 171.45 95.25) (xy 157.48 95.25)
 		)
 		(stroke
 			(width 0)
@@ -1593,6 +1593,26 @@
 			(type default)
 		)
 		(uuid "b3d58f4d-7684-43f7-b935-ef5651b51cab")
+	)
+	(wire
+		(pts
+			(xy 149.86 95.25) (xy 147.32 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3acaa40-aa00-4da2-ab7e-402efb7a8c5d")
+	)
+	(wire
+		(pts
+			(xy 154.94 95.25) (xy 157.48 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfb59b98-63db-49ef-a7c8-00a7b0e7dde0")
 	)
 	(wire
 		(pts
@@ -1623,6 +1643,16 @@
 			(type default)
 		)
 		(uuid "d804142f-119f-450c-8a42-911db7866f6b")
+	)
+	(wire
+		(pts
+			(xy 157.48 106.68) (xy 157.48 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d83ddd9f-2972-466a-a3d8-7a392db3592c")
 	)
 	(wire
 		(pts
@@ -1780,7 +1810,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 149.86 95.25 90)
+		(at 152.4 95.25 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1790,8 +1820,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0736b5a7-abeb-4035-b758-f76b2ea54eed")
-		(property "Reference" "R32"
-			(at 149.86 90.17 90)
+		(property "Reference" "R302"
+			(at 152.4 90.17 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1800,8 +1830,8 @@
 				)
 			)
 		)
-		(property "Value" "100k"
-			(at 149.86 92.71 90)
+		(property "Value" "100kΩ"
+			(at 152.4 92.71 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1811,7 +1841,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 149.86 95.25 0)
+			(at 152.4 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1822,7 +1852,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 149.86 95.25 0)
+			(at 152.4 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1833,7 +1863,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 149.86 95.25 0)
+			(at 152.4 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1852,7 +1882,7 @@
 		(instances
 			(project "gridfins"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/e9970e5a-5d42-4296-a5be-541a2fadb45f"
-					(reference "R32")
+					(reference "R302")
 					(unit 1)
 				)
 			)
@@ -1870,7 +1900,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1819cb91-fb63-4fb8-8702-e224c79920b1")
-		(property "Reference" "#PWR097"
+		(property "Reference" "#PWR0303"
 			(at 129.54 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -1930,7 +1960,7 @@
 		(instances
 			(project "gridfins"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/e9970e5a-5d42-4296-a5be-541a2fadb45f"
-					(reference "#PWR097")
+					(reference "#PWR0303")
 					(unit 1)
 				)
 			)
@@ -1938,7 +1968,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 152.4 105.41 0)
+		(at 157.48 106.68 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1948,8 +1978,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "48bad007-7c55-48a7-a8de-ca0bd1d3056f")
-		(property "Reference" "#PWR099"
-			(at 152.4 111.76 0)
+		(property "Reference" "#PWR0305"
+			(at 157.48 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1960,7 +1990,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 152.4 110.49 0)
+			(at 157.48 111.76 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1970,7 +2000,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 152.4 105.41 0)
+			(at 157.48 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1981,7 +2011,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 152.4 105.41 0)
+			(at 157.48 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1992,7 +2022,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 152.4 105.41 0)
+			(at 157.48 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2008,7 +2038,7 @@
 		(instances
 			(project "gridfins"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/e9970e5a-5d42-4296-a5be-541a2fadb45f"
-					(reference "#PWR099")
+					(reference "#PWR0305")
 					(unit 1)
 				)
 			)
@@ -2025,7 +2055,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "56f4c1da-614b-4602-a7e3-a0be1a183e12")
-		(property "Reference" "C52"
+		(property "Reference" "C301"
 			(at 100.584 88.138 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2036,7 +2066,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "100nF"
 			(at 100.584 90.678 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2089,7 +2119,7 @@
 		(instances
 			(project "gridfins"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/e9970e5a-5d42-4296-a5be-541a2fadb45f"
-					(reference "C52")
+					(reference "C301")
 					(unit 1)
 				)
 			)
@@ -2107,7 +2137,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "59850efb-f711-4812-bd30-eb304aaa1b6d")
-		(property "Reference" "Q6"
+		(property "Reference" "Q302"
 			(at 147.32 62.23 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2279,7 +2309,7 @@
 		(instances
 			(project "gridfins"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/e9970e5a-5d42-4296-a5be-541a2fadb45f"
-					(reference "Q6")
+					(reference "Q302")
 					(unit 1)
 				)
 			)
@@ -2297,7 +2327,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "630c4260-acb2-4825-a42e-038c4ba4224f")
-		(property "Reference" "#PWR096"
+		(property "Reference" "#PWR0302"
 			(at 109.22 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -2357,7 +2387,7 @@
 		(instances
 			(project "gridfins"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/e9970e5a-5d42-4296-a5be-541a2fadb45f"
-					(reference "#PWR096")
+					(reference "#PWR0302")
 					(unit 1)
 				)
 			)
@@ -2374,7 +2404,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6366bd4d-cc15-4bc2-a317-60fdf98c467f")
-		(property "Reference" "C55"
+		(property "Reference" "C304"
 			(at 161.544 88.138 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2385,7 +2415,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "100nF"
 			(at 161.544 90.678 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2438,7 +2468,7 @@
 		(instances
 			(project "gridfins"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/e9970e5a-5d42-4296-a5be-541a2fadb45f"
-					(reference "C55")
+					(reference "C304")
 					(unit 1)
 				)
 			)
@@ -2455,7 +2485,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "66779bc7-4ede-4b06-a989-8bc4d05f3fc5")
-		(property "Reference" "C54"
+		(property "Reference" "C303"
 			(at 135.382 63.754 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2465,7 +2495,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "100nF"
 			(at 135.382 66.294 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2517,7 +2547,7 @@
 		(instances
 			(project "gridfins"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/e9970e5a-5d42-4296-a5be-541a2fadb45f"
-					(reference "C54")
+					(reference "C303")
 					(unit 1)
 				)
 			)
@@ -2535,7 +2565,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7e5ad8f1-a327-4e34-a133-fcf2442469f6")
-		(property "Reference" "#PWR093"
+		(property "Reference" "#PWR0301"
 			(at 97.79 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -2595,7 +2625,7 @@
 		(instances
 			(project "gridfins"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/e9970e5a-5d42-4296-a5be-541a2fadb45f"
-					(reference "#PWR093")
+					(reference "#PWR0301")
 					(unit 1)
 				)
 			)
@@ -2612,7 +2642,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8deaea4d-b000-4436-9237-ed2c5b7d8139")
-		(property "Reference" "R31"
+		(property "Reference" "R301"
 			(at 103.378 98.806 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2623,7 +2653,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "10kΩ"
 			(at 103.378 101.346 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2676,7 +2706,7 @@
 		(instances
 			(project "gridfins"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/e9970e5a-5d42-4296-a5be-541a2fadb45f"
-					(reference "R31")
+					(reference "R301")
 					(unit 1)
 				)
 			)
@@ -2693,7 +2723,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "afb5cb72-5b0f-4a8a-b011-477ba5507d59")
-		(property "Reference" "#PWR0100"
+		(property "Reference" "#PWR0306"
 			(at 158.75 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -2753,7 +2783,7 @@
 		(instances
 			(project "gridfins"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/e9970e5a-5d42-4296-a5be-541a2fadb45f"
-					(reference "#PWR0100")
+					(reference "#PWR0306")
 					(unit 1)
 				)
 			)
@@ -2771,7 +2801,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c2e93372-ff90-4469-9d68-5792e1e54fbf")
-		(property "Reference" "#PWR098"
+		(property "Reference" "#PWR0304"
 			(at 135.89 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -2831,7 +2861,7 @@
 		(instances
 			(project "gridfins"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/e9970e5a-5d42-4296-a5be-541a2fadb45f"
-					(reference "#PWR098")
+					(reference "#PWR0304")
 					(unit 1)
 				)
 			)
@@ -2839,7 +2869,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 152.4 102.87 180)
+		(at 157.48 102.87 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2849,8 +2879,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ca9ed286-bda1-41ed-8089-fbc1fec0f57c")
-		(property "Reference" "R35"
-			(at 154.94 101.5999 0)
+		(property "Reference" "R304"
+			(at 160.02 101.5999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2860,8 +2890,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "4.22k"
-			(at 154.94 104.1399 0)
+		(property "Value" "4.22kΩ"
+			(at 160.02 104.1399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2872,7 +2902,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 152.4 102.87 0)
+			(at 157.48 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2883,7 +2913,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 152.4 102.87 0)
+			(at 157.48 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2894,7 +2924,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 152.4 102.87 0)
+			(at 157.48 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2913,7 +2943,7 @@
 		(instances
 			(project "gridfins"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/e9970e5a-5d42-4296-a5be-541a2fadb45f"
-					(reference "R35")
+					(reference "R304")
 					(unit 1)
 				)
 			)
@@ -2930,7 +2960,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d9fa0668-2604-43e6-8261-f2b7959b3f68")
-		(property "Reference" "U10"
+		(property "Reference" "U301"
 			(at 136.398 106.172 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3111,7 +3141,7 @@
 		(instances
 			(project "gridfins"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/e9970e5a-5d42-4296-a5be-541a2fadb45f"
-					(reference "U10")
+					(reference "U301")
 					(unit 1)
 				)
 			)
@@ -3119,7 +3149,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 152.4 97.79 180)
+		(at 157.48 97.79 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3129,8 +3159,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ddb87b4f-59b9-4924-82e4-d3e092b79e79")
-		(property "Reference" "R33"
-			(at 154.94 96.5199 0)
+		(property "Reference" "R303"
+			(at 160.02 96.5199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3140,8 +3170,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "5.1k"
-			(at 154.94 99.0599 0)
+		(property "Value" "5.1kΩ"
+			(at 160.02 99.0599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3152,7 +3182,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 152.4 97.79 0)
+			(at 157.48 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3163,7 +3193,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 152.4 97.79 0)
+			(at 157.48 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3174,7 +3204,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 152.4 97.79 0)
+			(at 157.48 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3193,7 +3223,7 @@
 		(instances
 			(project "gridfins"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/e9970e5a-5d42-4296-a5be-541a2fadb45f"
-					(reference "R33")
+					(reference "R303")
 					(unit 1)
 				)
 			)
@@ -3211,7 +3241,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e1956bad-469d-4f3b-9545-c93ed5141b3e")
-		(property "Reference" "Q5"
+		(property "Reference" "Q301"
 			(at 111.76 62.23 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3383,7 +3413,7 @@
 		(instances
 			(project "gridfins"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/e9970e5a-5d42-4296-a5be-541a2fadb45f"
-					(reference "Q5")
+					(reference "Q301")
 					(unit 1)
 				)
 			)
@@ -3400,7 +3430,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e7d913dd-7bc5-4048-8e9f-ddc6e9dfc73a")
-		(property "Reference" "C53"
+		(property "Reference" "C302"
 			(at 123.698 70.612 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3484,7 +3514,7 @@
 		(instances
 			(project "gridfins"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/e9970e5a-5d42-4296-a5be-541a2fadb45f"
-					(reference "C53")
+					(reference "C302")
 					(unit 1)
 				)
 			)
