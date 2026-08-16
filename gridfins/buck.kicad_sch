@@ -5369,7 +5369,8 @@
 	)
 	(symbol
 		(lib_id "Device:L")
-		(at 59.69 81.28 90)
+		(at 59.69 81.28 270)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5377,7 +5378,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "699ed470-3a35-4e9c-b08e-eb68ec82f6c9")
 		(property "Reference" "L501"
 			(at 59.69 77.47 90)
@@ -5399,7 +5399,7 @@
 				)
 			)
 		)
-		(property "Footprint" "iclr:IND_SPM10065VT-3R3M-D"
+		(property "Footprint" "iclr:WE-XHMI_7070"
 			(at 59.69 81.28 0)
 			(hide yes)
 			(show_name no)

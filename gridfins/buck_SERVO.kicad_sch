@@ -7153,7 +7153,8 @@
 	)
 	(symbol
 		(lib_id "Device:L")
-		(at 59.69 81.28 90)
+		(at 59.69 81.28 270)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7182,7 +7183,7 @@
 				)
 			)
 		)
-		(property "Footprint" "iclr:IND_SPM10065VT-3R3M-D"
+		(property "Footprint" "iclr:WE-XHMI_7070"
 			(at 59.69 81.28 0)
 			(hide yes)
 			(show_name no)
